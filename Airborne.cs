@@ -17,7 +17,7 @@ public sealed class Airborne : Script
 {
 	public Airborne() {
 		Interval = 100;
-		Configuration.Load(this);
+		//Configuration.Load(this);
 		Tick += AirborneTick;
 		}
 
